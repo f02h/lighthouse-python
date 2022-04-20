@@ -51,8 +51,7 @@ class LighthouseRunner(object):
                 url,
                 '--quiet' if quiet else '',
                 '--chrome-flags="--headless"',
-                '--preset=full',
-                '--emulated-form-factor={0}'.format(form_factor),
+                '--preset=desktop',
                 '--output=json',
                 '--output-path={0}'.format(report_path),
             ]
