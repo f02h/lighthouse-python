@@ -15,7 +15,12 @@ BASE_TIMINGS = [
     'first-meaningful-paint',
     'first-cpu-idle',
     'estimated-input-latency',
-    'time-to-first-byte',
+    'server-response-time',
+]
+
+BASE_TIMINGS = [
+    'interactive',
+    'server-response-time',
 ]
 """list(str) default list of timings"""
 
