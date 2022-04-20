@@ -38,7 +38,7 @@ class LighthouseRunner(object):
         _, self.__report_path = tempfile.mkstemp(suffix='.json')
         self._run(url, form_factor, quiet, additional_settings)
         self.report = self._get_report()
-        self._clean()
+        #self._clean()
 
     def _run(self, url, form_factor, quiet, additional_settings=None):
         report_path = self.__report_path
