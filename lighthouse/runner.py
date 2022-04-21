@@ -52,6 +52,8 @@ class LighthouseRunner(object):
                 '--quiet' if quiet else '',
                 '--chrome-flags="--headless"',
                 '--preset=desktop',
+                '--disable-cpu-throttling',
+                '--disable-network-throttling',
                 '--output=json',
                 '--output-path={0}'.format(report_path),
             ]
