@@ -54,6 +54,7 @@ class LighthouseRunner(object):
                 '--preset=desktop',
                 '--disable-cpu-throttling',
                 '--disable-network-throttling',
+                '--ignore-certificate-errors',
                 '--output=json',
                 '--output-path={0}'.format(report_path),
             ]
