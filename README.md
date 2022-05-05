@@ -35,3 +35,7 @@ report has 3 properties:
 
 ## Changes
 [You can find all changes in CHANGELOG!](CHANGELOG.md)
+
+pip3 uninstall lighthouse
+pip3 install git+https://github.com/f02h/lighthouse-python.git#egg=lighthouse
+
