@@ -50,11 +50,10 @@ class LighthouseRunner(object):
                 'lighthouse',
                 url,
                 '--quiet' if quiet else '',
-                '--chrome-flags="--headless"',
+                '--chrome-flags="--headless --ignore-certificate-errors"',
                 '--preset=desktop',
                 '--disable-cpu-throttling',
                 '--disable-network-throttling',
-                '--ignore-certificate-errors',
                 '--output=json',
                 '--output-path={0}'.format(report_path),
             ]
